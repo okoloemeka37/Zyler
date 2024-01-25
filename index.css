@@ -416,18 +416,17 @@ cursor: pointer;
 display:none;
 }
 @media only screen and (max-width: 480px) {
-    body{
-    background-color:red;
-    }
-
-   
+   body{
+          overflow-x: hidden;
+   }
+    
     .cen{
        
         display: block;
         background-color: black;
        height: fit-content;
         text-align: center;
-        margin-left: 27px;
+        margin-left: 20px;
         margin-top: 10px;
     }
     .cen img{
