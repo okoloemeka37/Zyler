@@ -412,11 +412,32 @@ cursor: pointer;
 .bars{
     display: none;
 }
+.cen{
+display:none;
+}
 @media only screen and (max-width: 480px) {
     body{
     background-color:red;
     }
-    
+
+   
+    .cen{
+       
+        display: block;
+        background-color: black;
+       height: fit-content;
+        text-align: center;
+        margin-left: 27px;
+        margin-top: 10px;
+    }
+    .cen img{
+        height: 50vh;
+        width: 100%;
+    }
+    .bigc{
+        display: none;
+    }
+  
     }
 
 @media (max-width: 767px){
